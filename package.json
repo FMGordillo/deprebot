@@ -1,0 +1,31 @@
+{
+  "name": "deprebot",
+  "version": "1.0.0",
+  "description": "A Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "start": "micro -l tcp://0.0.0.0:${PORT-3000}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FMGordillo/deprebot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Facundo Martin Gordillo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FMGordillo/deprebot/issues"
+  },
+  "homepage": "https://github.com/FMGordillo/deprebot#readme",
+  "dependencies": {
+    "axios": "0.25.0",
+    "micro": "9.3.4"
+  },
+  "devDependencies": {
+    "ava": "4.0.1",
+    "test-listen": "1.1.0"
+  }
+}
